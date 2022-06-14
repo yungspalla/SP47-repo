@@ -1,6 +1,8 @@
 var clientsInRestaurant = 14;
 var clientsWaiting = 0;
 var clientsInCashier = 0;
+let maxSeats = 40;
+let seatsAvailable = maxSeats - clientsInRestaurant;
 
 class MenuElement{
     constructor(food, price){
@@ -20,8 +22,20 @@ function doorbellRings() {
 }
 
 function newClientArrive() {
-    clientsInRestaurant++;
     clientsWaiting++;
+    checkSeats();
+}
+
+function checkSeats() {
+    if (clientsInRestaurant < maxSeats) {
+        console.log("There are seats available");
+        clientsInRestaurant++;
+        clientsWaiting--;
+        bringMenu();
+    } else {
+        console.log("There are no seats available");
+        clientsWaiting--;
+    }
 }
 
 function bringMenu() {
