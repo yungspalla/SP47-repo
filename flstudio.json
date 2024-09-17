@@ -1,0 +1,26 @@
+{
+  "apps": [
+    {
+      "beta": false,
+      "bundleIdentifier": "com.flstudio.mon",
+      "developerName": "Image Line",
+      "downloadURL": "https://fastupload.io/987c316fd9f16e87",
+      "iconURL": "https://w7.pngwing.com/pngs/659/8/png-transparent-baby-carrot-illustration-digital-audio-fl-studio-mobile-android-line-studio-food-studio-computer-wallpaper.png",
+      "localizedDescription": "FL Studio Mobile Free4All",
+      "name": "FL STUDIO MOBILE",
+      "screenshotURLs": [
+        "https://play.google.com/store/apps/details?id=com.imageline.FLM&hl=it"
+      ],
+      "size": 2184796,
+      "subtitle": "A whole music producing studio in your pocket",
+      "tintColor": "018089",
+      "version": "4.6.8",
+      "versionDate": "2020-03-24T14:00:00-07:00",
+      "versionDescription": "Boh"
+    }
+  ],
+  "identifier": "com.example.source",
+  "name": "pallatron",
+  "news": [],
+  "userInfo": {}
+}
